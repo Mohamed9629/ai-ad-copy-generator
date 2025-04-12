@@ -23,8 +23,8 @@ if st.button("Generate Ad Copy"):
             response = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages=[
-                    {"role": "system", "content": "You are a professional copywriter for Facebook ads."},
-                    {"role": "user", "content": f"Write 3 creative Facebook ad copies for the following product:
+                    {"role": "system", "content": "You are a professional copywriter & campaign performance for Facebook ads."},
+                    {"role": "user", "content": f"Write 10 creative Facebook ad copies & campaign performance for the following product:
 Product: {product}
 Target Audience: {audience}
 Tone: {tone}
