@@ -8,8 +8,8 @@ st.title("🧠 AI Ad Copy Generator")
 st.write("Generate engaging Facebook ad copy with OpenAI")
 
 # Input fields
-product = st.text_input("Product Name", placeholder="e.g., Silver Charm Bracelet")
-audience = st.text_input("Target Audience", placeholder="e.g., Women aged 25 to 45 in Saudi Arabia")
+product = st.text_input("Product Name", placeholder="e.g.,Tshirt")
+audience = st.text_input("Target Audience", placeholder="e.g., Women or aged 25 to 45 in any country you need")
 tone = st.selectbox("Tone of Voice", ["Friendly", "Luxury", "Urgent", "Emotional", "Bold", "Professional"])
 
 openai_api_key = st.text_input("🔑 OpenAI API Key", type="password")
